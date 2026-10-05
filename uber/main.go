@@ -24,7 +24,7 @@ type Location struct {
 	lon float32
 }
 
-type RideService struct {
+type Ride struct {
 	id     int
 	rider  *Rider
 	driver *Driver
