@@ -1,6 +1,6 @@
 package uber
 
-type PriceEvent interface {
+type PricingStrategy interface {
 	getPrice() int
 }
 
