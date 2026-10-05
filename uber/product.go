@@ -1,6 +1,6 @@
 package uber
 
-type Product interface {
+type ProductStrategy interface {
 	getBasePrice() int
 }
 

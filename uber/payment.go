@@ -6,12 +6,12 @@ type PaymentStrategy interface {
 	pay() bool // returns success or failure during payment
 }
 
-type UPI_CARD struct {
+type UPI struct {
 	card_num string
 	cvv      uint16
 }
 
-func (*UPI_CARD) pay() bool {
+func (*UPI) pay() bool {
 	fmt.Println("paying with upi")
 	return true
 }

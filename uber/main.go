@@ -16,7 +16,7 @@ type Driver struct {
 
 type Vehicle struct {
 	id       int
-	products []Product
+	products []ProductStrategy
 }
 
 type Location struct {
